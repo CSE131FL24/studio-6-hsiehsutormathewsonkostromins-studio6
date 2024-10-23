@@ -89,8 +89,6 @@ public class RecursiveMethods {
 	 * @return greatest common divisor of p and q
 	 */
 	public static int gcd(int p, int q) {
-        int i = 1;
-        
 		if (q == 0) {
 			return p; 
 		}
